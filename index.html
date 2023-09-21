@@ -134,11 +134,11 @@
         </table>
 
         <h3>Formulario</h3>
-        <form action="">
+        <form action="action.php">
             <fieldset>
                 <legend>Formulario de datos</legend>
                 <label for="Nombre">Nombre</label>
-            <input type ="text" id="Nombre" placeholder="Escribe tu nombre">
+            <input type ="text" id="Nombre" placeholder="Escribe tu nombre" required>
             <hr>
             <label for="email">email</label>
             <input type="email" id="email" placeholder="example@example.com">
@@ -154,6 +154,17 @@
             <hr>
             <label for="number">Numero</label>
             <input type="number" min="0" max="10" id="number">
+            <input type="submit" value="Enviar">
+            </fieldset>
+
+            <fieldset>
+                <legend>Datos Adicionales</legend>
+                <label for="file">Sube un archivo</label>
+                <input type="file" id="file">
+                <label for="color">Selecciona un color</label>
+                <input type="color" id="color">
+                <input type="reset" value="Reestablecer">
+                <input type="submit" value="Enviar">A
             </fieldset>
             
             
