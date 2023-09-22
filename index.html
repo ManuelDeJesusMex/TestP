@@ -6,7 +6,7 @@
         <meta name="Description" content="Documento HTML 5">
         <meta name="Keywords" content="HTML, CSS, JavaScript, Web, LMSGE">
         <link rel="icon" href="icono.png" type="img/png" sizes="=16x16">
-        <title> QUESO</title>
+        <title id="titulo"> QUESO</title>
     </head>
     <body>
         <h1>AaAAAAAAAAA</h1>
@@ -163,11 +163,42 @@
                 <input type="file" id="file">
                 <label for="color">Selecciona un color</label>
                 <input type="color" id="color">
+                <label for="comentario">comentario</label>
+                <textarea id="comentario" cols="100" rows="5"></textarea>
                 <input type="reset" value="Reestablecer">
-                <input type="submit" value="Enviar">A
+                <input type="submit" value="Enviar">
+                
             </fieldset>
             
-            
+            <fieldset>
+                <legend>Selectores</legend>
+                <label for="selector">Selecciona una opción</label>
+                <select name="selector" id="selector">
+                    <option value="">Selecciona una opción</option>
+                    <option value="valor1">Opcion 1</option>
+                    <option value="valor2">Opcion 2</option>
+                    <option value="valor3">Opcion 3</option>
+                    <option value="valor4">Opcion 4</option>
+                
+                </select>
+
+                <input type="checkbox" value="opcion1">
+                <label for="opcion1">Opción 1</label>
+                <input type="checkbox" value="opcion2">
+                <label for="opcion2">Opción 2</label>
+                <input type="checkbox" value="opcion3">
+                <label for="opcion3">Opción 3</label>
+
+                <br>
+                <label for="">Selecciona una opción</label>
+
+                <input name="opcion" type="radio" id="opcion1" value="1">
+                <label for="opcion1">opción 1</label>
+                <input name="opcion" type="radio" id="opcion2" value="2">
+                <label for="opcion2">opción 2</label>
+                <input name="opcion" type="radio" id="opcion3" value="3">
+                <label for="opcion3">opción 3</label>
+            </fieldset>
         </form>
     </body>
     
