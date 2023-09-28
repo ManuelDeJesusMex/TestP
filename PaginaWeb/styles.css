@@ -1,0 +1,36 @@
+*{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+ }
+
+body {
+    font-family: "lato", sans-serif;
+    color: white;
+}
+
+a {
+    color: black;
+    /* font-weight: 600;
+    margin: 10px 0;
+    line-height: 1.2; */
+    text-decoration: none;
+}
+h1 {
+    font-size: 30px;
+    font-weight: 300;
+    margin: 10px;
+    line-height: 1.2;
+    color: black;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 300;
+    margin: 10px 0;
+    line-height: 1.2;
+}
+
+p {
+    font-size: 30px;
+}

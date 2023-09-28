@@ -1,0 +1,21 @@
+body {
+    margin: 50px;
+    font-size: 15px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* grid-template-rows: ; */
+}
+
+/* .box {
+    background-color: #8b6b539a;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+} */
+
+/* .image {
+
+} */
