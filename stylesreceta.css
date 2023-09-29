@@ -1,20 +1,45 @@
 body {
     margin: 50px;
-    font-size: 15px;
+    font-size: 40px;
 }
 
 main {
     display: grid;
-    grid-template-columns: 1fr;
-    /* grid-template-rows: ; */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+     background-color: antiquewhite;
+    grid-gap: 10px;
 }
 
-/* .box {
-    background-color: #8b6b539a;
+.box {
+    background-color: #a5b9749a;
     color: white;
-    border-radius: 5px;
-    padding: 20px;
-} */
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.header {
+    
+    grid-column: 1/6;
+}
+
+.article {
+     
+    font-size: 100px;
+    grid-column: 1/5;
+}
+
+.aside {
+    
+    grid-column: 5/6;
+    grid-row: 2/8;
+}
+
+.footer {
+  font-size: 150px;
+    grid-column: 1/6;
+
+}
 
 /* .image {
 
