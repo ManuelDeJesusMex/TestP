@@ -142,9 +142,9 @@ li {
     font-family: "poppins", sans-serif;
 }
 
-.text {
+/* .text {
 
-}
+} */
 
 .lower-container {
     color: #000000;
@@ -195,4 +195,31 @@ li {
 .tittle-container {
     color: #000000;
     text-align: center;
+}
+
+.testimonial {
+    color: #000000;
+    padding: 40px;
+}
+.testimonial img {
+    height: 100%;
+    clip-path: circle();
+}
+
+.testimonial h3 {
+    text-align: center;
+}
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+
+}
+
+.card {
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: -7px -7px 20px rgb(0,0,0,0.2),
+                7px 7px 20px rgb(0, 0, 0, 0.2);
 }
