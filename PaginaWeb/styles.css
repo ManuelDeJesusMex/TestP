@@ -79,7 +79,7 @@ li {
     
 }
 .navbar ul {
-    display: flex;
+    display: block;
 }
 
 .navbar a:hover {
