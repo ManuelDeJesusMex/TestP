@@ -1,21 +1,21 @@
 body {
-    margin: 50px;
-    font-size: 40px;
+    margin: 10px;
+    font-size: 15px;
 }
 
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 3fr 1fr 2fr;
+     grid-template-rows: 1fr 2fr 1fr -1fr -1fr;
      background-color: antiquewhite;
-    grid-gap: 10px;
+    grid-gap: 5px;
 }
 
 .box {
     background-color: #a5b9749a;
     color: white;
-    border-radius: 10px;
-    padding: 10px;
+    border-radius: 5px;
+    padding: 20px;
 }
 
 .header {
@@ -24,8 +24,7 @@ main {
 }
 
 .article {
-     
-    font-size: 100px;
+    
     grid-column: 1/5;
 }
 
@@ -36,7 +35,7 @@ main {
 }
 
 .footer {
-  font-size: 150px;
+
     grid-column: 1/6;
 
 }
